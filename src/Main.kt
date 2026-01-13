@@ -1,3 +1,8 @@
+import modules.EnergyGenerator
+import modules.ResearchLab
+import resources.OutpostResource
+import resources.ResourceManager
+
 fun main() {
     val manager = ResourceManager()
     manager.add(OutpostResource(1, "Minerals", 120))
@@ -8,9 +13,9 @@ fun main() {
     lab.performAction(manager)
     println()
     manager.printAll()
-//    val manager = ResourceManager()
-//    val minerals = OutpostResource(1, "Minerals", 300)
-//    val gas = OutpostResource(2, "Gas", 100)
+//    val manager = resources.ResourceManager()
+//    val minerals = resources.OutpostResource(1, "Minerals", 300)
+//    val gas = resources.OutpostResource(2, "Gas", 100)
 //    manager.add(minerals)
 //    manager.add(gas)
 //    manager.printAll()
@@ -26,11 +31,11 @@ fun main() {
 //abstract class Human(val name: String) {
 ////    fun hello() {
 ////        println("My name is $name")
-//    abstract var age: Int
+//    abstract var example.age: Int
 //    abstract fun hello()
 //    }
 //
-//class Person(name: String, override var age : Int): Human(name) {
+//class Person(name: String, override var example.age : Int): Human(name) {
 //    override fun hello() {
 //        println("My name is $name")
 //    }
