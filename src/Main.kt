@@ -13,6 +13,7 @@ fun main() {
     lab.performAction(manager)
     println()
     manager.printAll()
+    //коммент
 //    val manager = resources.ResourceManager()
 //    val minerals = resources.OutpostResource(1, "Minerals", 300)
 //    val gas = resources.OutpostResource(2, "Gas", 100)
